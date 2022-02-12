@@ -128,6 +128,9 @@ border-radius: 33px;
     height: 36px;
     margin-bottom: 2rem;
 }
+.buy-course-button {
+  padding: 5px 12px;
+}
 }
 @media (max-width: 480px) {
 #header-area{
