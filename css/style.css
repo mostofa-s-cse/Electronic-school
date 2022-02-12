@@ -82,7 +82,7 @@ border-radius: 33px;
   margin-bottom: 2rem;
 }
 .buy-course-button {
-  background: #21B573;
+  background: hsl(153, 58%, 81%);
   border-radius: 33px;
   color: #fff;
   padding: 8px 40px 8px 40px;
@@ -127,6 +127,9 @@ border-radius: 33px;
     width: 148px;
     height: 36px;
     margin-bottom: 2rem;
+}
+.buy-course-button {
+  padding: 5px 12px;
 }
 }
 @media (max-width: 480px) {
