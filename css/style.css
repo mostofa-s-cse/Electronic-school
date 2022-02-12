@@ -57,8 +57,6 @@ border-radius: 33px;
   margin-bottom: 40px;
 }
 .book-card {
-  width: 270px;
-  height: 300px;
   background: #F0FFF0;
   margin-bottom: 2rem;
   border: 1px solid #fff;
@@ -135,21 +133,23 @@ border-radius: 33px;
 #header-area{
   text-align: center;
 }
-.col-4 {
-  max-width: 90.33333%;
-  flex: 0 0 90%;
-}
 .col-3 {
-  max-width: 90.33333%;
-  flex: 0 0 90%;
+  flex: 0 0 46%;
+  max-width: 50%;
+  margin: auto;
+}
+.col-4 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin: auto;
 }
 .col-2 {
-  max-width: 90.33333%;
-  flex: 0 0 90%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin: initial;
 }
-input.btn.singin-button {
-  position: sticky;
-  margin-top: -85px;
+.col-8 {
+  margin: auto;
 }
 #testimonial-area {
   text-align: center;
